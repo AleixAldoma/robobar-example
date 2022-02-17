@@ -5,7 +5,7 @@ pipeline {
            steps {
              nodejs('node-14.18.2') {
                  //sh 'yarn install --dev cypress'
-                 sh 'yarn cy:ci'
+                 sh 'npx cy:ci'
              }
            }
         }
