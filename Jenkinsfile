@@ -4,8 +4,8 @@ pipeline {
         stage('Test') {
            steps {
              nodejs('node-14.18.2') {
-                 //sh 'yarn install --dev cypress'
-                 sh 'npx cy:ci'
+                 sh 'yarn install --dev cypress'
+                 sh 'yarn cy:ci'
              }
            }
         }
