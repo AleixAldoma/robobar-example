@@ -9,10 +9,10 @@
              }
            }
            post {
-                always {
-                        junit 'results/*.xml'
-                       }
-                }
+              always {
+                  junit 'results/*.xml'
+              }
+           }
         }
     }
 }
