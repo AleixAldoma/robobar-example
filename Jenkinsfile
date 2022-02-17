@@ -9,7 +9,7 @@ pipeline {
             parallel {
                 stage('test') {
                     steps {
-                        sh './yarn cy:ci'
+                        sh 'yarn cy:ci'
                     }
                 }
             }
