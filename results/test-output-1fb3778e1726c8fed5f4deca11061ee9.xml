@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="54.8340" tests="20" failures="5">
+  <testsuite name="Root Suite" timestamp="2022-02-17T09:36:20" tests="0" file="cypress/integration/Robobar.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Robobar cart" timestamp="2022-02-17T09:36:20" tests="20" time="54.8340" failures="5">
+    <testcase name="Robobar cart user add one cola" time="5.0090" classname="user add one cola">
+    </testcase>
+    <testcase name="Robobar cart user add two colas" time="3.4100" classname="user add two colas">
+    </testcase>
+    <testcase name="Robobar cart user adds one beer" time="1.8780" classname="user adds one beer">
+    </testcase>
+    <testcase name="Robobar cart user buys several colas (example #1)" time="1.6880" classname="user buys several colas (example #1)">
+    </testcase>
+    <testcase name="Robobar cart user buys several colas (example #2)" time="3.2630" classname="user buys several colas (example #2)">
+    </testcase>
+    <testcase name="Robobar cart user buys several colas (example #3)" time="2.2200" classname="user buys several colas (example #3)">
+    </testcase>
+    <testcase name="Robobar cart user buys several colas (example #4)" time="2.2330" classname="user buys several colas (example #4)">
+    </testcase>
+    <testcase name="Robobar cart user buys several beers (example #1)" time="2.7590" classname="user buys several beers (example #1)">
+    </testcase>
+    <testcase name="Robobar cart user buys several beers (example #2)" time="2.0420" classname="user buys several beers (example #2)">
+    </testcase>
+    <testcase name="Robobar cart user buys several wines (example #1)" time="2.7760" classname="user buys several wines (example #1)">
+    </testcase>
+    <testcase name="Robobar cart user buys several wines (example #2)" time="3.2230" classname="user buys several wines (example #2)">
+    </testcase>
+    <testcase name="Robobar cart user buy several drinks (example #1)" time="4.9650" classname="user buy several drinks (example #1)">
+    </testcase>
+    <testcase name="Robobar cart user buy several drinks (example #2)" time="7.5790" classname="user buy several drinks (example #2)">
+    </testcase>
+    <testcase name="Robobar cart user buy several drinks (example #3)" time="7.9570" classname="user buy several drinks (example #3)">
+    </testcase>
+    <testcase name="Robobar cart user buy several drinks (example #1)" time="3.8320" classname="user buy several drinks (example #1)">
+    </testcase>
+    <testcase name="Robobar cart user buy several drinks (example #1)" time="0.0000" classname="user buy several drinks (example #1)">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `#ageInput`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `#ageInput`, but never found it.
+    at ageInput (http://localhost:3000/__cypress/tests?p=cypress/integration/Robobar.feature:131:13)
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/Robobar.feature:104:26)
+    at Context.resolveAndRunStepDefinition (http://localhost:3000/__cypress/tests?p=cypress/integration/Robobar.feature:10526:29)
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/Robobar.feature:9847:35)]]></failure>
+    </testcase>
+    <testcase name="Robobar cart user buy several drinks (example #2)" time="0.0000" classname="user buy several drinks (example #2)">
+      <failure message="Step implementation missing for: checkout result is &quot;fail&quot;" type="Error"><![CDATA[Error: Step implementation missing for: checkout result is "fail"
+    at Context.resolveAndRunStepDefinition (http://localhost:3000/__cypress/tests?p=cypress/integration/Robobar.feature:10532:11)
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/Robobar.feature:9847:35)]]></failure>
+    </testcase>
+    <testcase name="Robobar cart user buys several drinks" time="0.0000" classname="user buys several drinks">
+      <failure message="Step implementation missing for: user adds a cola and a beer" type="Error"><![CDATA[Error: Step implementation missing for: user adds a cola and a beer
+    at Context.resolveAndRunStepDefinition (http://localhost:3000/__cypress/tests?p=cypress/integration/Robobar.feature:10532:11)
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/Robobar.feature:9847:35)]]></failure>
+    </testcase>
+    <testcase name="Robobar cart any user buys a cola" time="0.0000" classname="any user buys a cola">
+      <failure message="Step implementation missing for: robobar confirms order" type="Error"><![CDATA[Error: Step implementation missing for: robobar confirms order
+    at Context.resolveAndRunStepDefinition (http://localhost:3000/__cypress/tests?p=cypress/integration/Robobar.feature:10532:11)
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/Robobar.feature:9847:35)]]></failure>
+    </testcase>
+    <testcase name="Robobar cart any user buys a cola" time="0.0000" classname="any user buys a cola">
+      <failure message="Step implementation missing for: robobar confirms order" type="Error"><![CDATA[Error: Step implementation missing for: robobar confirms order
+    at Context.resolveAndRunStepDefinition (http://localhost:3000/__cypress/tests?p=cypress/integration/Robobar.feature:10532:11)
+    at Context.eval (http://localhost:3000/__cypress/tests?p=cypress/integration/Robobar.feature:9847:35)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

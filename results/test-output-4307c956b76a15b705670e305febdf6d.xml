@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="64.9250" tests="11" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-02-17T09:34:08" tests="0" file="cypress/integration/hola.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Order tests" timestamp="2022-02-17T09:34:08" tests="8" time="43.0220" failures="0">
+    <testcase name="Order tests Order a cola" time="10.9190" classname="Order a cola">
+    </testcase>
+    <testcase name="Order tests Order two colas" time="4.2630" classname="Order two colas">
+    </testcase>
+    <testcase name="Order tests Order a beer" time="2.7520" classname="Order a beer">
+    </testcase>
+    <testcase name="Order tests Order two beers" time="3.7760" classname="Order two beers">
+    </testcase>
+    <testcase name="Order tests Order a wine" time="3.6020" classname="Order a wine">
+    </testcase>
+    <testcase name="Order tests Order two wines" time="6.6550" classname="Order two wines">
+    </testcase>
+    <testcase name="Order tests Order one cola, one beer" time="6.0670" classname="Order one cola, one beer">
+    </testcase>
+    <testcase name="Order tests Order one cola, one beer, one wine" time="4.9880" classname="Order one cola, one beer, one wine">
+    </testcase>
+  </testsuite>
+  <testsuite name="Age tests" timestamp="2022-02-17T09:34:56" tests="3" time="21.9030" failures="0">
+    <testcase name="Age tests Anyone orders cola" time="6.2350" classname="Anyone orders cola">
+    </testcase>
+    <testcase name="Age tests Underage orders beer" time="8.2480" classname="Underage orders beer">
+    </testcase>
+    <testcase name="Age tests Adult orders beer" time="7.4200" classname="Adult orders beer">
+    </testcase>
+  </testsuite>
+</testsuites>
