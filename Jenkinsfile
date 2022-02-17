@@ -3,11 +3,10 @@ pipeline {
     options {
            ansiColor('xterm')
     }
-    nodeVersion='node-14.18.2'
     stages {
         stage('Test') {
            steps {
-             nodejs(nodeVersion) {
+             nodejs('node-14.18.2') {
                  sh 'yarn install'
                  sh 'yarn cy:ci || true'
              }
