@@ -8,10 +8,11 @@ pipeline {
         }
         stage('Test') {
             // parallelize browser tests
-               stage('test: chrome') {
-                   nodejs('node-14.18.2') {
-                       sh 'yarn cy:ci'
-                   }
+            parallel {
+                stage('test') {
+                    steps {
+                        sh './ yarn cy:ci'
+                    }
                 }
             }
             post {
@@ -21,3 +22,4 @@ pipeline {
             }
         }
     }
+}
