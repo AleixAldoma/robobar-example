@@ -13,6 +13,8 @@ import {
     wineButton
 } from "../cartPage";
 
+var alcohol
+
 function addColas(n){
     let btn = colaButton()
     for(let i=0;i<n;i++){
@@ -21,12 +23,14 @@ function addColas(n){
 }
 function addBeers(n){
     let btn = beerButton()
+    if(n>0) alcohol = true
     for(let i=0;i<n;i++){
         btn.click()
     }
 }
 function addWines(n){
     let btn = wineButton()
+    if(n>0) alcohol = true
     for(let i=0;i<n;i++){
         btn.click()
     }
@@ -39,6 +43,7 @@ function addDrinks(nColas,nBeers,nWines){
 
 Given('user opens robobar website',()=>{
     cy.visit('http://localhost:3000/#!/')
+    alcohol = false
 })
 
 When('user adds a cola',()=>{
@@ -70,7 +75,7 @@ Then('user checks out',()=>{
     checkout().click()
 })
 Then('user is {int} years old',(age)=>{
-    ageInput().click().type(age)
+    if(alcohol) ageInput().click().type(age)
 })
 Then('checkout result is {string}',(exp)=>{
     order().click()
